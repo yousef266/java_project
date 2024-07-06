@@ -57,7 +57,7 @@ public class gui extends JFrame {
           
                 txtOutput.setText(ganttChart);
               } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(null, "Please eenter valid numbers for processes and time quantum.");
+                JOptionPane.showMessageDialog(null, "Please enter valid numbers for processes and time quantum.");
               }
             }
           });
